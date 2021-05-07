@@ -1,0 +1,51 @@
+.cards {
+    .webix_template {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 177px;
+        }
+    }
+    .webix_nav_button_side {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+
+        &.webix_nav_button_prev {
+            left: 24px;
+            .webix_nav_button_inner {
+                &:hover, &:focus {
+                    background: none;
+                }
+            }
+        }
+
+        &.webix_nav_button_next {
+            right: 24px;
+            .webix_nav_button_inner {
+                &:hover, &:focus {
+                    background: none;
+                }
+            }
+        }
+    }
+    .webix_nav_button_next,
+    .webix_nav_button_prev {
+        background: none;
+        .webix_nav_button_inner {
+            background: none;
+            color: #1CA1C1;
+            font-size: 24px;
+        }
+    } 
+    .webix_nav_button_next .webix_nav_button_inner:before {
+        content: "\F028";
+    }
+    .webix_nav_button_prev .webix_nav_button_inner:before {
+        content: "\F029";
+    }
+}

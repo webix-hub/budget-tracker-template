@@ -1,0 +1,35 @@
+.activityMap {
+    .webix_template {
+        padding: 0;
+    }
+}
+.activityTotal {
+    flex-direction: column;
+}
+.activityItem {
+    padding-left: 14px;
+    position: relative;
+    &:first-of-type {
+        margin-bottom: 8px;
+    }
+    &:before {
+        border-radius: 50%;
+        content: '';
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 2px;
+    }
+}
+.income {
+    &:before {
+        background-color: #1CA1C1;
+    }
+}
+.spent {
+    &:before {
+        background-color: #FF5C4C;
+    }
+}

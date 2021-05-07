@@ -1,0 +1,20 @@
+.historyTable {
+    .customIcon {
+        vertical-align: middle;
+        margin-bottom: 2px;
+        cursor: pointer;
+        &.mdi-checkbox-marked {
+            color: #1CA1C1;
+        }
+        &.mdi-checkbox-blank-outline {
+            color: #94A1B3;
+        }
+    }
+    .webix_first {
+        .webix_cell, &.webix_hcell {
+            padding: 0 7px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

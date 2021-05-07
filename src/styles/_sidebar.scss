@@ -1,0 +1,15 @@
+.webix_sidebar{
+    &.webix_dark {
+        &.darkSidebar {
+            background-color: #475466;
+            border-color: #475466;
+        }
+    }
+}
+.darkSidebar {
+    .webix_tree_item {
+        .webix_sidebar_icon {
+            color: #fff;
+        }
+    }
+}

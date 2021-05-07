@@ -1,0 +1,40 @@
+@import "header";
+@import "sidebar";
+@import "userTemplate";
+@import "budget";
+@import "activity";
+@import "cards";
+@import "category";
+@import "history";
+
+.pointer {
+    cursor: pointer;
+}
+
+.bgWhite {
+    background: #fff;
+}
+
+.bgLight {
+    background: #dadee0;
+}
+
+.flex {
+    display: flex;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+.ellipsis {
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.sign {
+    color: #94A1B3;
+    margin-right: 8px;
+}
