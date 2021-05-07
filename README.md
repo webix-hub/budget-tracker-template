@@ -3,15 +3,15 @@ Webix Budget Tracker Template
 
 Check the Budget Tracker web template for the Webix UI library.
 
-Budget Tracker live demo.
+[Budget Tracker live demo](https://webix-hub.github.io/budget-tracker-template/dist/es5/index.html).
 
 The template is ready to be integrated into any web solution. The features of the template are the following:
 
-- balance and expenses charts
-- categories of expenses
-- history of expenses
-- ability to save month reports and watch history
-- ability to register several cards
+- balance and expenses charts;
+- categories of expenses;
+- history of expenses;
+- ability to save month reports and watch history;
+- ability to register several cards.
 
 This ready-made template can be downloaded and built into any environment.
 
